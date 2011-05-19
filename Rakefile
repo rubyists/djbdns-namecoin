@@ -48,9 +48,9 @@ IGNORE_FILES = [/\.gitignore/]
 
 GEMSPEC = Gem::Specification.new{|s|
   s.name         = 'djbdns_namecoin'
-  s.author       = "tj"
-  s.summary      = "The Djbdns Namecoin library, by tj"
-  s.description  = "The Djbdns Namecoin library, by tj"
+  s.author       = "The Rubyists, LLC"
+  s.summary      = "The Djbdns Namecoin library, by The Rubyists, LLC"
+  s.description  = "The Djbdns Namecoin library, by The Rubyists, LLC"
   s.email        = 'tj@rubyists.com'
   s.homepage     = ''
   s.platform     = Gem::Platform::RUBY

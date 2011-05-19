@@ -1,7 +1,7 @@
 ==tj
 ----------
 
-  The Djbdns Namecoin library, by tj
+  The Djbdns Namecoin library, by The Rubyists, LLC
 
 == Download
 
@@ -10,6 +10,11 @@
 ==Usage
 -------
 
-We're getting there. 
+very rough
 
-Copyright(c) 2011 by tj
+irb -r ./app.rb
+> list = DjbdnsNamecoin::Namecoin::Record.all
+
+> one = DjbdnsNamecoind::Namecoind::Regord.get("bit")
+
+Copyright(c) 2011 by The Rubyists, LLC
