@@ -8,7 +8,7 @@ end
 
 begin
   if (local_path = Pathname.new(__FILE__).dirname.join("..", "lib", "djbdns_namecoin.rb")).file?
-    require local_path
+    require local_path.expand_path
   else
     require "djbdns_namecoin"
   end

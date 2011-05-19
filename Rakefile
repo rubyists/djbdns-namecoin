@@ -56,7 +56,6 @@ GEMSPEC = Gem::Specification.new{|s|
   s.platform     = Gem::Platform::RUBY
   s.version      = (ENV['PROJECT_VERSION'] || (begin;Object.const_get(PROJECT_MODULE)::VERSION;rescue;Date.today.strftime("%Y.%m.%d");end))
   s.files        = `git ls-files`.split("\n").sort.reject { |f| IGNORE_FILES.detect { |exp| f.match(exp)  } }
-  s.has_rdoc     = true
   s.require_path = 'lib'
   s.bindir = "bin"
   s.executables = ["DjbdnsNamecoin"]
