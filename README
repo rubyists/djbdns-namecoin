@@ -17,4 +17,7 @@ irb -r ./app.rb
 
 > one = DjbdnsNamecoind::Namecoind::Regord.get("bit")
 
+
+both of the above expect namecoind binary in the path and working (configured)
+
 Copyright(c) 2011 by The Rubyists, LLC
